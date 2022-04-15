@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+}
+
+.resume{
+    background-color: white;
+}
+
+.resume__body{
+    background-color:rgb(241, 240, 240);
+    margin: 5px;
+    height: fit-content;
+    display: flex;
+}
+
+.resume__left{
+    width: 220px;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+}
+
+.resume__left > img{
+    margin-left: 28%;
+    height: 120px;
+    /* width: 120px; */
+    border-radius: 50%;
+}
+
+.resume__right{
+    padding: 20px;
+}
+
+.aboutme__section > h4{
+    font-weight: 400;
+    color: white;
+}
+
+.resume__right__header{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name > p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact__items{
+    display: flex;
+    padding: 3px;
+}
+
+.contact__items > p{    
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact__items > img{    
+    height: 20px;
+}
+
+.list__items{
+    margin:8px;
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+
+.resume__right__body{
+    margin-top: 15px;
+}
+
+.resume__objective{
+    margin-top: 15px;
+}
+
+.educational__details{
+    margin-top: 15px;
+}
+
+.resume__objective > p{
+    margin:8px;
+    font-size: 16px;
+    /* font-weight: 600;    */
+}
+
+.projects{
+    margin-top: 15px;
+}
+
+.skills__section{
+    margin-top:10px;
+}
+
+.internship{
+    margin-top: 10%;
+}
+
+.skills__section > h4, .internship > h4{
+    color: white;
+}
+
+.skill__items{
+    color: white;
+    margin:8px;
+    font-size: 16px;
+}
+
+.link{
+     color: black !important;
+}
